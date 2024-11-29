@@ -13,6 +13,10 @@ body {
     align-items: center;
 }
 
+.header-img {
+    width: 200px;
+}
+
 .header-title {
     font-size: 46px;
     color: #413C37;
