@@ -1,0 +1,110 @@
+body {
+    background-color: #f7f2eb;
+    font-weight: 700;
+    font-family: "Noto Serif TC", serif;
+}
+
+
+h1 {
+    font-size: 46px;
+    color: #413C37;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 24px;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+}
+
+.project:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    vertical-align: top;
+    margin-bottom: 10px;
+    object-position: top;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: rgb(113, 67, 6);
+    margin: 1rem 0 0.5rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem;
+    color: #464646;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.project-link {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    color: #B6A496;
+    border: 1px solid #B6A496;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #B6A496;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.skills {
+    display: inline-block;
+    padding: 1px 2px;
+    /* background-color: #B6A496; */
+    /* border: 1px solid #B6A496; */
+    margin: 2px;
+    border-radius: 3px;
+    /* color: #fff; */
+    color: #905f2d;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666666;
+}
