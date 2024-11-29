@@ -5,7 +5,15 @@ body {
 }
 
 
-h1 {
+
+.header {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
     font-size: 46px;
     color: #413C37;
     padding: 20px;
